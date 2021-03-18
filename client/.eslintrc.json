@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "testing-library",
+    "jest-dom"
+  ],
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "testing-library/await-async-query": "warn",
+    "testing-library/no-await-sync-query": "warn",
+    "testing-library/no-debug": "warn",
+    "jest-dom/prefer-checked": "warn",
+    "jest-dom/prefer-enabled-disabled": "warn",
+    "jest-dom/prefer-required": "warn",
+    "jest-dom/prefer-to-have-attribute": "warn"
+  },
+  "extends": [
+    "eslint:recommended",
+    "prettier",
+    "plugin:testing-library/recommended",
+    "plugin:testing-library/react"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "decks-thesis-project",
+  "version": "1.0.0",
+  "description": "Decks - Codeworks Thesis Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing, testing, 123...\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartin88/decks-thesis-project.git"
+  },
+  "keywords": [
+    "decks",
+    "language",
+    "learning",
+    "react",
+    "redux",
+    "sequelize",
+    "postgres"
+  ],
+  "author": "Shaun Martin, Max Draguhn, Carla Astrain, Alain Diouly-Osso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartin88/decks-thesis-project/issues"
+  },
+  "homepage": "https://github.com/smartin88/decks-thesis-project#readme",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "postgres": "^1.0.2",
+    "sequelize": "^6.5.1"
+  }
+}
