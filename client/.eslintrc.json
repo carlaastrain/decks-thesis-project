@@ -12,19 +12,33 @@
   },
   "plugins": [
     "react",
-    "testing-library",
-    "jest-dom"
+    "testing-library"
   ],
   "rules": {
-    "no-unused-vars": "warn",
+    // we only want single quotes
+    "quotes": [
+      "error",
+      "single"
+    ],
+    // we want to force semicolons
+    "semi": [
+      "error",
+      "always"
+    ],
+    // we use 2 spaces to indent our code
+    "indent": [
+      "error",
+      2
+    ],
+    // we want to avoid useless spaces
+    "no-multi-spaces": [
+      "error"
+    ],
+    "no-unused-vars": "off",
     "react/prop-types": "off",
     "testing-library/await-async-query": "warn",
     "testing-library/no-await-sync-query": "warn",
-    "testing-library/no-debug": "warn",
-    "jest-dom/prefer-checked": "warn",
-    "jest-dom/prefer-enabled-disabled": "warn",
-    "jest-dom/prefer-required": "warn",
-    "jest-dom/prefer-to-have-attribute": "warn"
+    "testing-library/no-debug": "warn"
   },
   "extends": [
     "eslint:recommended",

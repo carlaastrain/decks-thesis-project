@@ -1,0 +1,89 @@
+/* GLOBAL STYLES */
+  
+
+* {
+    box-sizing: border-box;
+  }
+
+ 
+
+/* .wrapperHomePage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* background-color: #a3b6c5; */
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 15vh;
+    font-family: 'Barlow', sans-serif;
+  }
+  
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    grid-gap: 1rem;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+
+.grid-item-middle {
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    margin: 10px;
+    font-weight: bold;
+    /* color: white; */
+    box-shadow: 5px 8px 7px #888888;   
+    /* background: linear-gradient(to right, rgb(60, 120, 148), rgb(125, 53, 138)); */
+}
+
+.grid-item-left {
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.grid-item-right {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.playIcon {
+    width: 35px;
+    margin: 10px; 
+}
+
+.uploadIcon {
+    width: 25px;
+    margin-top: 20px; 
+  
+}
+
+.uploadIconDown {
+    width: 35px;
+    margin-bottom: 20px; 
+    transform: rotate(180deg);
+}
+
+.uploadIconLeft {
+    width: 25px;
+    margin-left: 20px;
+    transform: rotate(-90deg);  
+  
+}
+
+.uploadIconRight {
+    width: 25px;
+    margin-left: 20px;
+    transform: rotate(90deg);  
+}
